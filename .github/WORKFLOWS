@@ -1,0 +1,27 @@
+  "Services Page": {
+        "Services Offered": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "Service Name": {
+                "type": "string",
+                "description": "Name of the service provided."
+              },
+              "Description": {
+                "type": "string",
+                "description": "Detailed description of the service."
+              },
+              "Benefits": {
+                "type": "string",
+                "description": "Key benefits of the service."
+              },
+              "Pricing": {
+                "type": "string",
+                "description": "Pricing structure for the service."
+              }
+            },
+            "description": "List of services offered by the consulting firm."
+          }
+        }
+      },
